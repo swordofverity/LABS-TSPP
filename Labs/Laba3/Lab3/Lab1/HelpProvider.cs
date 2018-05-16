@@ -32,7 +32,7 @@ namespace Lab1
         static private void Executed(object sender, ExecutedRoutedEventArgs e)
         {
             System.Windows.MessageBox.Show("Help: " + HelpProvider.GetHelpString(sender as FrameworkElement));
-            System.Diagnostics.Process.Start(@"C:\Users\root\Desktop\учеба\TSPP\Laba3\spravka.html");//Open chm file
+            //System.Diagnostics.Process.Start(@"C:\Users\root\Desktop\учеба\TSPP\Laba3\spravka.html");//Open chm file
         }
 
         public static string GetHelpString(DependencyObject obj)
